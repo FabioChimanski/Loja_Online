@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(to bottom, #D2D4D5, #FFFFFF);
+}
+.card {
+overflow: hidden; /* Evita que a imagem transborde */
+}
+
+.card img {
+    transition: transform 0.3s ease-in-out;
+    display: block; /* Remove espaços indesejados na imagem */
+}
+
+.card:hover img {
+    transform: scale(1.1); /* Aplica zoom sem mexer no tamanho original */
+}
+
+.navbar {
+transition: all 0.3s ease-in-out;
+border-bottom: 3px solid #FFC857; /* Linha amarela para efeito surf */
+}
+
+.navbar-brand {
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+    margin: 0 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFC857 !important; /* Amarelo ao passar o mouse */
+}
+
+.btn-warning {
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+#produtos_destaque{
+    padding: 30px;
+}
+
+
